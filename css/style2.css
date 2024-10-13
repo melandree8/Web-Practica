@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #e0f7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.setup-container {
+    display: flex;
+    max-width: 700px;
+    width: 90%;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.setup-left {
+    background-color: #1ad389;
+    width: 40%;
+    padding: 35px;
+    border-radius: 12px 0 0 12px;
+    text-align: center;
+}
+
+.setup-left img {
+    width: 260px;
+    height:260px;
+    padding-right:30px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.setup-left h1{
+    font-size: 24px;
+    font-family: "Paytone One", sans-serif;
+    color: #fff;
+}
+
+
+.setup-left h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.setup-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.next-button {
+    background-color: #333;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.setup-right {
+    padding: 20px;
+    width: 65%;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 1px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.input-group input[type="text"],
+.input-group input[type="date"],
+.input-group input[type="email"],
+.input-group input[type="tel"],
+.input-group input[type="password"]
+ {
+    border-radius: 8px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+    background-color: #fff;
+    transition: border-color 0.3s;
+}
+
+.input-group input:focus {
+    border-color: #29d392;
+}
+
+.input-group.gender-group {
+    display: flex;
+    align-items: center;
+}
+
+.input-group.gender-group label {
+    margin-right: 20px;
+}
+
+.input-group.gender-group input {
+    margin-right: 5px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.cancel-button {
+    background-color: #ccc;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.form-buttons  .cancel-button a{
+    text-decoration: none;
+}
+
+.save-button {
+    background-color: #1ad389;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
